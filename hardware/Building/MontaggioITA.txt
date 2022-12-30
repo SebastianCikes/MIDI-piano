@@ -1,0 +1,40 @@
+Materiali:
+- Trave di legno 1010mm x 85mm x 25mm (l, w, h)
+- Lastra di plexiglass da 5mm
+- 21 piezo
+- 76 bulloni M3
+- 4 bulloni M5
+- 42 elastici
+- un qualsiasi materiale elastico (più compatto è meglio è) 940mm x 80mm x ~5mm (l, w, h)
+- 42 distanziatori 5mm
+- 42 o-ring
+- 52 dadi M3
+- 26 led 5mm
+- 26 resistori 330ohm
+- 21 resistori 1Mohm
+- 5 interruttori a 2 stati 6mm
+- 2 Arduino MEGA
+- 1 Sparkfun DEV-12898
+- scheda millefori
+- cavi vari
+- alimentatore 9V
+
+
+1) Incollare sulla trave di legno il materiale elastico
+2) Incollare i piezo al materiale elastico, saldando assieme tutte i GND e saldando i resistori da 1Mohm per ogni cavo positivo dei piezo (guarda schema elettrico)
+3) Saldare un cavo per ogni resistore e portarlo fino all'estremità sinistra dove si troverà il pannello di controllo
+4) Su una scheda millefori saldare i led e per ognuno i resistori da 330ohm
+5) Incollare la scheda dietro la base dei tasti
+6) Tagliare i pezzi di plexiglas come da file .dwg e con la quantità giusta.
+7) Fissare la base di plexiglas alle pareti con le viti M3
+8) Inserire le viti nelle pareti con 1 distanziatore ed 1 bullone
+9) Incollare i gommini nelle loro posizioni e appoggiare sopra i tasti
+10) Fissare i tasti con gli elastici ai distanziatori, facendo passare l'elastico per i fori da 3mm sui tasti
+11) Inserire da sotto la trave di legno ed avvitare tutte le viti delle pareti fino in fondo
+12) Costruire la scatola del pannello di controllo come da modello
+13) Fissare sul coperchio del pannello di controllo i 5 led rimanenti con i loro resistori e gli interruttori
+14) Fissare i 2 Arduino MEGA alla base ed inserire in quello di sinistra la sheld MIDI
+15) Collegare tutti i cavi come da schema elettrico
+16) Caricare il programma pianolaUNO sulla scheda arduino con la shield MIDI ed il programma pianolaDUE sull'altro Arduino
+17) Collegare un adattatore MIDI-USB alla shield ed al computer
+18) Alimentare la scheda Arduino con la sheld MIDI con un alimentatore

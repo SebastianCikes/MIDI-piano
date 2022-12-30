@@ -1,0 +1,41 @@
+Materials:
+- Wooden beam 1010mm x 85mm x 25mm (l, w, h)
+- Plexiglass plate da 5mm
+- 21 piezo
+- 76 bolts M3
+- 4 bolts M5
+- 42 rubber bands
+- any elastic material (the more compact the better) 940mm x 80mm x ~5mm (l, w, h)
+- 42 spacers 5mm
+- 42 o-ring
+- 52 nuts M3
+- 26 led 5mm
+- 26 resistors 330ohm
+- 21 resistors 1Mohm
+- 5 switches 2 states 6mm
+- 2 Arduino MEGA
+- 1 Sparkfun DEV-12898
+- perfboard
+- various cables
+- power supply 9V
+
+
+1) Glue the elastic material to the wooden beam
+2) Glue the piezos to the elastic material, solder together all the GNDs and solder the 1Mohm resistors for each positive cable of the piezos (see wiring diagram)
+3) Solder one wire to each resistor and run it all the way to the far left where the control panel will be
+4) Solder the LEDs and the 330ohm resistors for each one on a perfboard
+5) Glue the perfboard behind the base of the keys
+6) Cut the plexiglas pieces as per the .dwg file and in the right quantity
+7) Fix the Plexiglas base to the walls with the M3 bolts
+8) Insert bolts into the walls with 1 spacer and 1 nut each
+9) Glue the o-rings in their positions and place the keys on them
+10) Secure the frets with rubber bands to the spacers, passing the rubber band through the 3mm holes on the frets
+11) Insert the wooden beam from underneath and screw in all the wall screws all the way down
+12) Build the control panel box as per the template
+13) Fix the 5 remaining LEDs with their resistors on the control panel cover
+14) Fix the 5 switxhes on the control panel cover
+15) Fix the 2 Arduino MEGA to the base and insert the MIDI sheld in the one on the left
+16) Connect all cables according to the wiring diagram
+17) Load the pianolaUNO program on the Arduino board with the MIDI shield and the pianolaDUE program on the other Arduino
+18) Connect a MIDI-USB adapter to the shield and to the computer
+19) Power the Arduino board with the MIDI sheld with a power supply
