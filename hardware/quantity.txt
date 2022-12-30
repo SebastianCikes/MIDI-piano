@@ -1,0 +1,9 @@
+pareteA x6
+coperchioA x3
+tasto x21
+pareteB x1
+coperchioB x1
+pareteC x1
+pareteD x1
+pareteE x1
+piano x1
